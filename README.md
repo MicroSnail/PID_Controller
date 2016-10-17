@@ -8,8 +8,8 @@ To compile the Verilog code, you will need:
 
 
 The C code can be compiled in Linux using the following command:
-  ```
-  arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
-  ```
+```
+arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
+```
   (`arm-linux_gnueabihf-gcc` came with the installation of Vivado)
   (I am not sure yet)
