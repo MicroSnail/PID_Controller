@@ -22,7 +22,7 @@ Under Linux, one can transfer files by `scp <local_filename> root@192.168.1.7:~/
 and login the Linux on RP with `ssh root@192.168.1.7`. (password is written on the ethernet socket sticker)
 
 1. Generate and copy a bitstream file to the Linux system running on RP.
-Use Vivado to open 
+Use Vivado to open `PID_controller.xpr`. Click the **Generate Bitstream** button on the **Flow Navigator** panel or goto **Flow-->Generate Bitstream**. The resulting bit file will be available at `<project_dir>/PID_controller.runs/impl_1/*.bit`
 
 2. Load the bitstream file to the FPGA
 3. 
