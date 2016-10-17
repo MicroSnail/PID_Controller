@@ -1,7 +1,7 @@
 # PID_Controller
 
 ## Current Stage:
-You can use set K_{p,i,d}
+You can use set $K_{p,i,d}$
 
 Here you will find a Vivado project for a PID controller as well as associated C code that is used to set the parameters. 
 
