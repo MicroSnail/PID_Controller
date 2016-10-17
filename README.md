@@ -12,6 +12,9 @@ arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
   (`arm-linux_gnueabihf-gcc` came with the installation of Vivado)
   (I haven't tried compiling the C code under Windows yet, but there should be some easy ways to do so.)
 
-# How to Operate the PID Controller on Red Pitaya
+# How to Operate the PID Controller on Red Pitaya (RP)
+0. Generate and copy a bitstream file to the Linux system running on RP.
+Connect to the same network as the RP (so that your computer and RP are going through the same router). Note the IP address of RP. (In the lab we have ``192.168.1.7``)
+
 1. Load the bitstream file to the FPGA
 2. 
