@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Oct 17 12:06:55 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d419d804a6864948a34f9447dfa60895" type="ProjectID"/>
+<property name="ProjectIteration" value="22" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="FileExit" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="2" type="JavaHandler"/>
+<property name="RunBitgen" value="22" type="JavaHandler"/>
+<property name="RunImplementation" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SaveProjectAs" value="2" type="JavaHandler"/>
+<property name="ShowView" value="7" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, red_pitaya_top (red_pitaya_top.sv" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, D:/Users/MicroSnail/Documents/Cornell/Vengalattore/FPGA_PID/PID_controller/PID_controller.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid.v, 142, 152" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid.v, 199, 124" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid.v, 220, 244" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid.v, 256, 454" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid.v, 57, 447" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 131, 315" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 159, 540" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 172, 157" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 184, 385" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 198, 24" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 198, 24, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 270, 364" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 270, 364, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 271, 169" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 279, 382" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 281, 289" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 306, 164" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 339, 231" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 388, 354" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 478, 366" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 478, 366, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 487, 434" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 493, 377" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 515, 228" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 518, 234" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 520, 231" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 541, 383" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 545, 316" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 562, 541" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 587, 540" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 694, 323" value="1" type="GuiResourceData"/>
+<property name="red_pitaya_pid_block.v, 714, 355" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="23" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="20" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
