@@ -1,7 +1,7 @@
 # PID_Controller
 
 ## Current Stage:
-You can use set $K_{p,i,d}$
+By using the C program, you can use set K_p,i,d and the set point. You can also choose *Input 2* on the board as the set point instead of a fixed one.
 
 Here you will find a Vivado project for a PID controller as well as associated C code that is used to set the parameters. 
 
