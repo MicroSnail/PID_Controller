@@ -3,6 +3,8 @@
 ## Current Stage:
 By using the C program, you can use set K_p,i,d and the set point. You can also choose *Input 2* on the board as the set point instead of a fixed one.
 
+Currently the code is pretty coarse and not robust so user input discretion is assumed.
+
 Here you will find a Vivado project for a PID controller as well as associated C code that is used to set the parameters. 
 
 To compile the Verilog code, you will need:
@@ -30,8 +32,14 @@ Use Vivado to open `PID_controller.xpr`. Click the **Generate Bitstream** button
 
 2. Load the bitstream file to the FPGA
 Log in to the Linux on RP, then reprogram the FPGA by 
-```
+```bash
 root@rp-f03bc7:~# cat <path_to_fpga_bitstream>/fpga.bit > /dev/xdevcfg
 ```
-## Run pidctrl
-3. 
+## Compiling pidctrl
+3. If 
+```bash
+arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
+```
+
+
+##
