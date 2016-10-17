@@ -36,10 +36,17 @@ Log in to the Linux on RP, then reprogram the FPGA by
 root@rp-f03bc7:~# cat <path_to_fpga_bitstream>/fpga.bit > /dev/xdevcfg
 ```
 ## Compiling pidctrl
-3. If 
+3. Go to the directory of C code and run
 ```bash
 arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
 ```
+This step could be done in any place but you will need to copy it to the Linux on RP and run it from there.
 
+(You might need to install `arm-linux-gnueabihf-gcc` manually if you haven't installed Vivado, I think)
 
-##
+## Run pidctrl
+4. Log in Linux on RP, go to the directory containing pidctrl, and run
+```bash
+./pidctrl <kp> <ki> <kd> <ms> <sp>
+```
+`<ms>` is a switch to use a fixed set point defined by `<sp>`. (0 for using `in2` signal as the set point)
