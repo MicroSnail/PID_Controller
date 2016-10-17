@@ -53,7 +53,7 @@ This step could be done in any place but you will need to copy it to the Linux o
 ## Run pidctrl
 4. Log in Linux on RP, go to the directory containing pidctrl, and run
 ```bash
-./pidctrl <kp> <ki> <kd> <ms> <sp>
+root@rp-f03bc7:~# ./pidctrl <kp> <ki> <kd> <ms> <sp>
 ```
 `<ms>` is a switch to use a fixed set point defined by `<sp>`. (0 for using `in2` signal as the set point)
 Currently the way the Verilog code is written, K_p,i,d and sp are all 14-bit signed integers (so -8191 to 8192) (I might have miscounted by one here...).
