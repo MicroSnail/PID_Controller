@@ -16,5 +16,7 @@ arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
 0. Generate and copy a bitstream file to the Linux system running on RP.
 Connect to the same network as the RP (so that your computer and RP are going through the same router). Note the IP address of RP. (In the lab we have ``192.168.1.7``)
 
+Under Windows, one can transfer files to RP with [WinScp](https://winscp.net/eng/download.php)
+
 1. Load the bitstream file to the FPGA
 2. 
