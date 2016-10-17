@@ -1,6 +1,9 @@
 # PID_Controller
 
-Here you will find a Vivado project for a PID controller as well as associated C code that is used to set the parameters.
+## Current Stage:
+You can use set K_{p,i,d}
+
+Here you will find a Vivado project for a PID controller as well as associated C code that is used to set the parameters. 
 
 To compile the Verilog code, you will need:
   Xilinx [Vivado 2016.2](http://www.xilinx.com/support/download.html) FPGA development tools. The SDK (bare metal toolchain) must also be installed, be careful during the install process to select it. Preferably use the default install location.
