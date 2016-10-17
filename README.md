@@ -16,6 +16,7 @@ arm-linux-gnueabihf-gcc -g -std=gnu99 -Wall -Werror -lm    pidctrl.c  -o pidctrl
   (I haven't tried compiling the C code under Windows yet, but there should be some easy ways to do so.)
 
 # How to Operate the PID Controller on Red Pitaya (RP)
+## Reprogramming the FPGA
 0. Some preparations
 Connect to the same network as the RP (so that your computer and RP are going through the same router). Note the IP address of RP. (In the lab we have ``192.168.1.7``)
 
@@ -28,4 +29,10 @@ and login the Linux on RP with `ssh root@192.168.1.7`. (password is written on t
 Use Vivado to open `PID_controller.xpr`. Click the **Generate Bitstream** button on the **Flow Navigator** panel or goto **Flow-->Generate Bitstream**. The resulting bit file will be available at `<project_dir>/PID_controller.runs/impl_1/*.bit`
 
 2. Load the bitstream file to the FPGA
+Log in to the Linux on RP, then reprogram the FPGA by 
+```
+root@rp-f03bc7:~# cat <path_to_fpga_bitstream>/fpga.bit > /dev/xdevcfg
+```
+
+## Run pidctrl
 3. 
