@@ -35,6 +35,10 @@ Log in to the Linux on RP, then reprogram the FPGA by
 ```bash
 root@rp-f03bc7:~# cat <path_to_fpga_bitstream>/fpga.bit > /dev/xdevcfg
 ```
+
+(This step might fail sometimes for reasons unknown to me. The error message looks like `error: connection timeout`. One solution I found is just reboot the Linux system on RP either by replugging the power or run `bash
+root@rp-f03bc7:~# reboot`)
+
 ## Compiling pidctrl
 3. Go to the directory of C code and run
 ```bash
@@ -50,3 +54,5 @@ This step could be done in any place but you will need to copy it to the Linux o
 ./pidctrl <kp> <ki> <kd> <ms> <sp>
 ```
 `<ms>` is a switch to use a fixed set point defined by `<sp>`. (0 for using `in2` signal as the set point)
+Currently the way the Verilog code is written, K_p,i,d and sp are all 14-bit signed integers (so -8191 to 8192) (I might have miscounted by one here...).
+
