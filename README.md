@@ -33,6 +33,5 @@ Log in to the Linux on RP, then reprogram the FPGA by
 ```
 root@rp-f03bc7:~# cat <path_to_fpga_bitstream>/fpga.bit > /dev/xdevcfg
 ```
-
 ## Run pidctrl
 3. 
